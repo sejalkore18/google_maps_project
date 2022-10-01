@@ -1,16 +1,19 @@
 # google_maps_project
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The folder structure for this project is as follows: 
 
-A few resources to get you started if this is your first Flutter project:
+- lib<br>
+    - app <br>
+        - data (This contains the code to get the data from the api.) <br>
+        - domain(This contains entities that are used in the code along with their mapper functions.) <br>
+        - presentation(This contains the view part of the code that will be visible to the user.) <br>
+    - utils 
+        - keys (This contains the keys that are used in the api.)
+        - parse functions (This contains the parse function to map the api response into the suitable entities.)
+        
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
